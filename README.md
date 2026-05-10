@@ -10,4 +10,4 @@ This project is currently in development.
 This project is mainly focusing on older devices/legacy/vintage iOS versions and devices.
 
 ### Revoked Certificates? Apps are showing an integrity error?
-No worries, create an issure, and I will get right to it.
+No worries, create an issue, and I will get right to it. Do **NOT** create more than one issue.
