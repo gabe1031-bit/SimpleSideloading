@@ -6,3 +6,6 @@ This project is currently in development. Due to schooling, this project may be 
 
 ### What is this project's main focus?
 This project is mainly focusing on older devices/legacy/vintage iOS versions and devices.
+
+### Revoked Certificates? Apps are showing an integrity error?
+No worries, create an issure, and I will get right to it.
