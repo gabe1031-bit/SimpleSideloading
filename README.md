@@ -1,4 +1,4 @@
-![SimpleSideloading Logo](https://github.com/gabe1031-bit/SimpleSideloading/blob/main/images/sslogo.png?raw=true)
+<img src="https://github.com/gabe1031-bit/SimpleSideloading/blob/main/images/sslogo.png?raw=true" width="25%" length="25">
 # Simple Sideloading
 This project simplifies the iOS sideloading process, ensuring compatibility with any iOS version. It utilizes a lightweight, functional UI with minimal reliance on JavaScript.
 
