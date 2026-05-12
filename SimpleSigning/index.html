@@ -32,7 +32,7 @@
             }
         </style>
   </head>
-  <body>
+  <body style="backgound-color:lightblue;">
     <div class="center-text">
     <h1> Simple Signing</h1>
     <p> Welcome to SimpleSigning! This website has the philosophy of keeping things simple for legacy iOS devices. 
@@ -40,6 +40,7 @@
       We would <strong> NOT </strong> accept AppleID or Ad-hoc certificates that require UDID to be signed into the app.</p>
 
       <h2> IN DEVELOPMENT!?! (what are you doing here??)</h2>
+      <p> This method is in beta, and things may not work. (its in development, what do you think?) have a wonderful day!!</p>
     <hr>
     
 <form action="/sign" method="post" enctype="multipart/form-data">
@@ -47,9 +48,8 @@
     <input type="file" id="ipa" name="ipa" accept=".ipa" required>
     
     <label for="cert">Select Certificate (Optional <strong>only</strong> if app is presigned):</label>
-    <select name="cert_type">
-        <option value="enterprise_1">Aramco Services Company (Signed)</option>
-    </select>
+    <input type="file" id="p12" name="p12" accept=".p12">
+    <input type="file" id="mp" name="mobileprovision" accept=".mobileprovision">
     
     <hr>
     
