@@ -3,6 +3,9 @@
 # Simple Sideloading
 This project simplifies the iOS sideloading process, ensuring compatibility with any iOS version. It utilizes a lightweight, functional UI with minimal reliance on JavaScript.
 
+## SimpleBit??
+This project and many others are going into an ecosystem group, with SimpleBit being the group. Like Apple.
+
 ### Development Status
 This project is currently in development.
 
