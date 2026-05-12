@@ -38,7 +38,7 @@
   </head>
   <body style="background-color:lightblue;">
     <div class="center-text">
-    <img src="/images/2.png/" style="display: block; margin-left: auto; margin-right: auto; width: 150px; height: 150px;">
+    <img src="/images/2.png" style="display: block; margin-left: auto; margin-right: auto; width: 150px; height: 150px;">
     <h1> Simple Signing</h1>
     <p> Welcome to SimpleSigning! This website has the philosophy of keeping things simple for legacy iOS devices. 
       This part of SimpleBit handles signing any IPAs that you have (using our own/your collection of enterprise certs). 
@@ -55,6 +55,9 @@
     <label for="cert">Select Certificate (Optional <strong>only</strong> if app is presigned):</label>
     <input type="file" id="p12" name="p12" accept=".p12">
     <input type="file" id="mp" name="mobileprovision" accept=".mobileprovision">
+
+    <label for="password"> Password:</label>
+    <input type="text" id="password" name="password">
     
     <hr>
     
