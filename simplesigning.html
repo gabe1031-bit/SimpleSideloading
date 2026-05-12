@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Simple Signing </title>
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A personal project dedicated for sideloading to be simple and easy for any iOS device, including legacies!">
+        <meta name="keywords" content="SimpleSideloading, Sideloading, Jailbreak, iOS, SimpleBit">
+        <meta name="author" content="gabe1031-bit">
+
+        <style>
+            .center-text {
+                text-align: center;
+            }
+
+            p {
+                font-family: "Trebuchet MS";
+            }
+            
+            h1 {
+                font-family: "Trebuchet MS";
+            }
+            
+            h2 {
+                font-family: "Trebuchet MS";
+            }
+            
+            h3 {
+                font-family: "Trebuchet MS";
+            }
+        </style>
+  </head>
+  <body>
+    <div class="center-text">
+    <h1> Simple Signing</h1>
+    <p> Welcome to SimpleSigning! This website has the philosophy of keeping things simple for legacy iOS devices. 
+      This part of SimpleBit handles signing any IPAs that you have (using our own/your collection of enterprise certs). 
+      We would <strong> NOT </strong> accept AppleID or Ad-hoc certificates that require UDID to be signed into the app.</p>
+
+      <h2> IN DEVELOPMENT!?! (what are you doing here??)</h2>
+    <hr>
+    
+<form action="/sign" method="post" enctype="multipart/form-data">
+    <label for="ipa">Select IPA File:</label>
+    <input type="file" id="ipa" name="ipa" accept=".ipa" required>
+    
+    <label for="cert">Select Certificate (Optional <strong>only</strong> if app is presigned):</label>
+    <select name="cert_type">
+        <option value="enterprise_1">Aramco Services Company (Signed)</option>
+    </select>
+    
+    <hr>
+    
+    <button type="submit">Sign & Install</button>
+
+  </form>
+  <hr>
+    </div>
+  </body>
+
+</html>
